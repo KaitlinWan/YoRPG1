@@ -20,7 +20,7 @@ public class Character {
     	health -= a;
     	}
 
-    public int attack(Character attackee) {
+    public int attack(Character attacker) {
     	int damage;
     	damage = (int) ((strength * att) - attackee.getDefense());
     	return damage;
